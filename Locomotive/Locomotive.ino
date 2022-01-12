@@ -10,7 +10,7 @@ const int MOTOR_PIN_2 = 19;
 const int DIRECTION_INV = 0;
 const int PWM_FREQ = 20000;
 
-const String LOCOMOTIVE_DESIGNATOR = "L1";
+const String LOCOMOTIVE_DESIGNATOR = "L2";
 
 Scheduler userScheduler;
 painlessMesh  mesh;

@@ -22,7 +22,7 @@ void setup() {
   mesh.onChangedConnections(&changedConnectionCallback);
   mesh.onNodeTimeAdjusted(&nodeTimeAdjustedCallback);
 
-  Serial2.begin(9600);
+  Serial2.begin(9600, SERIAL_8N1, 16, 17);
 
   //userScheduler.addTask(taskSendMessage);
   //taskSendMessage.enable();
