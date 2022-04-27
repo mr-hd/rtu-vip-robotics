@@ -32,6 +32,7 @@ void loop() {
   while (Serial.available()) {
     String a = Serial.readString();
     sendMessage(a);
+    Serial.println(a);
     if(a.substring(0, 4) == "P1=0"){
       Serial.println(a.substring(0, 4));
       Serial2.println(a.substring(0, 4));
